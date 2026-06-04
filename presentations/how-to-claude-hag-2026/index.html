@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- How to use Claude at Homeaglow — internal offsite deck -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>How to use Claude at Homeaglow</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="../../shared/deck.css" />
+</head>
+<body class="deck-page">
+
+<div class="bg">
+  <div class="wash w1"></div><div class="wash w2"></div>
+  <svg class="spark" style="left:13%;top:20%;width:26px;height:26px;fill:var(--yellow);animation-delay:0s" viewBox="0 0 24 24"><path d="M12 0c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 24c-.6-6.6-5.4-11.4-11.4-12C6.6 11.4 11.4 6 12 0z"/></svg>
+  <svg class="spark" style="right:16%;top:26%;width:18px;height:18px;fill:var(--ink);animation-delay:1.5s" viewBox="0 0 24 24"><path d="M12 0c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 24c-.6-6.6-5.4-11.4-11.4-12C6.6 11.4 11.4 6 12 0z"/></svg>
+  <svg class="spark" style="right:29%;bottom:19%;width:22px;height:22px;fill:var(--yellow);animation-delay:2.7s" viewBox="0 0 24 24"><path d="M12 0c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 24c-.6-6.6-5.4-11.4-11.4-12C6.6 11.4 11.4 6 12 0z"/></svg>
+  <svg class="spark" style="left:22%;bottom:23%;width:15px;height:15px;fill:var(--faint);animation-delay:3.6s" viewBox="0 0 24 24"><path d="M12 0c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 24c-.6-6.6-5.4-11.4-11.4-12C6.6 11.4 11.4 6 12 0z"/></svg>
+</div>
+
+<div class="topbar">
+  <div class="brand"><span class="mark"><svg viewBox="0 0 24 24" fill="#1B1A1A"><path d="M12 1c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 23c-.6-5.6-5.4-10.4-11.4-11C6.6 11.4 11.4 6 12 1z"/></svg></span> How to use Claude</div>
+  <div class="pill-sec" id="secLabel">Open</div>
+</div>
+<div class="counter"><b id="cur">01</b> / <span id="tot">13</span></div>
+<div class="bar" id="bar"></div>
+<div class="rail" id="rail"></div>
+<div class="hint" id="hint"><kbd>←</kbd><kbd>→</kbd> navigate · click anywhere</div>
+
+<div id="deck">
+
+  <!-- 1 TITLE -->
+  <section class="slide active" data-sec="Open">
+    <div class="wrap">
+      <div class="kicker" data-r="1"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 23c-.6-5.6-5.4-10.4-11.4-11C6.6 11.4 11.4 6 12 1z"/></svg> Homeaglow Offsite · June 2026</div>
+      <h1 class="title" data-r="2">How to use<br><span class="hl">Claude.</span></h1>
+      <p class="lede" data-r="3">AI isn't a chatbot you visit. It's leverage you build into how you work. Three places to put it, a few habits that make it compound, and then you build one.</p>
+    </div>
+  </section>
+
+  <!-- 2 THE FRAME -->
+  <section class="slide" data-sec="Open">
+    <div class="wrap">
+      <div class="kicker" data-r="1">the frame</div>
+      <h2 class="head" data-r="2">A menu,<br>not a <span class="hl">manual.</span></h2>
+      <div class="two" style="margin-top:34px">
+        <div>
+          <p class="lede" data-r="3" style="margin-top:0">This isn't a tools tutorial. It's a menu of what to reach for: the kinds of work worth handing to AI, with concrete examples. Take the ideas that fit your job and leave the rest.</p>
+          <p class="foot" data-r="5">Quick show of hands: who used Claude this week?</p>
+        </div>
+        <div class="grid" data-r="4" style="margin-top:0">
+          <div class="cardx tint"><div class="tag">the one promise</div><h3>You build one thing</h3><p>Everyone leaves today having built one thing, not just watched a demo. Set it up in the next half hour and it's running before we break.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 THE SHIFT -->
+  <section class="slide" data-sec="Open">
+    <div class="wrap">
+      <div class="kicker" data-r="1">the shift</div>
+      <h2 class="head" data-r="2">From a chatbot you visit<br>to <span class="hl">leverage you build.</span></h2>
+      <div class="grid g2">
+        <div class="cardx" data-r="3"><div class="tag">the old way</div><h3>You go to the AI</h3><p>Open a tab, ask a question, copy the answer out, repeat tomorrow. Every result is a one-off you have to go and fetch yourself.</p></div>
+        <div class="cardx tint" data-r="4"><div class="tag">the shift</div><h3>The AI comes to you</h3><p>You wire it into your work once. It maintains the artifact, runs on a schedule, and reads from real systems. The work happens without you asking.</p></div>
+      </div>
+      <p class="foot" data-r="5"><b>Example:</b> my day used to open with 45 minutes triaging Slack, making tasks, and remembering follow-ups. Now that runs overnight and I start with a ranked list.</p>
+    </div>
+  </section>
+
+  <!-- 4 THE MAP -->
+  <section class="slide" data-sec="Open">
+    <div class="wrap">
+      <div class="kicker" data-r="1">the map</div>
+      <h2 class="head" data-r="2">Three places to put it,<br>plus the <span class="hl">habits.</span></h2>
+      <div class="stepper" data-r="3">
+        <div class="track"></div>
+        <div class="stp"><div class="num setup">1</div><h4>Artifacts</h4><p>Things that stay alive</p><span class="mode setup">live</span></div>
+        <div class="stp"><div class="num agent">2</div><h4>Routines</h4><p>Work that runs itself</p><span class="mode agent">scheduled</span></div>
+        <div class="stp"><div class="num assisted">3</div><h4>Connections</h4><p>Wired into our data</p><span class="mode assisted">connected</span></div>
+        <div class="stp"><div class="num human">4</div><h4>Norms</h4><p>How we make it compound</p><span class="mode human">shared</span></div>
+        <div class="stp"><div class="num extension">+</div><h4>Build one</h4><p>Before we break</p><span class="mode extension">today</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 ARTIFACTS -->
+  <section class="slide" data-sec="Artifacts">
+    <div class="wrap">
+      <div class="kicker" data-r="1">1 · live artifacts</div>
+      <h2 class="head" data-r="2">From a one-time answer<br>to an <span class="hl">artifact that stays alive.</span></h2>
+      <p class="lede" data-r="2">Stop re-asking the same question or re-pulling the same report. Have Claude build something that maintains itself and is useful every time you open it.</p>
+      <div class="grid g3">
+        <div class="cardx" data-r="3"><div class="tag">re-drafts itself</div><h3>Weekly recap</h3><p>Open it Monday and it's already written from the latest numbers. You edit it, you don't assemble it.</p></div>
+        <div class="cardx tint" data-r="4"><div class="tag">stays current</div><h3>Live tracker</h3><p>A goal-progress tracker or daily metrics summary that is accurate every morning, with no hand-updating.</p></div>
+        <div class="cardx" data-r="5"><div class="tag">always on</div><h3>Status page</h3><p>An inside-sales or channel status doc that reflects reality the moment you look at it.</p></div>
+      </div>
+      <p class="foot" data-r="6">Everyone here maintains some report or status doc by hand. The shift: you don't have to anymore.</p>
+    </div>
+  </section>
+
+  <!-- 6 ROUTINES — concept (the hero) -->
+  <section class="slide" data-sec="Routines">
+    <div class="wrap">
+      <div class="kicker" data-r="1">2 · scheduled routines · the hero</div>
+      <h2 class="head" data-r="2">From "I ask Claude"<br>to <span class="hl">"Claude tells me."</span></h2>
+      <p class="lede" data-r="2">Claude runs on a schedule, without you asking. Set it once, and it works while you sleep. Most people think AI means a chatbot. The real unlock is work that happens without you.</p>
+      <div class="pipe" data-r="3">
+        <div class="pcard"><div class="pnum">01</div><h4>Set it once</h4><p>a schedule + a prompt</p></div>
+        <span class="arrow">→</span>
+        <div class="pcard"><div class="pnum">02</div><h4>It runs</h4><p>overnight, on time</p></div>
+        <span class="arrow">→</span>
+        <div class="pcard"><div class="pnum">03</div><h4>You're handed</h4><p>a ranked result</p></div>
+      </div>
+      <p class="foot" data-r="4">A routine set up at 10am has something to show by end of day. That's why it's today's default build.</p>
+    </div>
+  </section>
+
+  <!-- 7 ROUTINES — examples -->
+  <section class="slide" data-sec="Routines">
+    <div class="wrap">
+      <div class="kicker" data-r="1">routines in the wild</div>
+      <h2 class="head" data-r="2">What people already<br><span class="hl">run here.</span></h2>
+      <div class="grid g3">
+        <div class="cardx" data-r="3"><div class="tag">coaching</div><h3>Coaching notes</h3><p>Reviews meeting transcripts or Slack activity and drafts coaching notes for your reports.</p></div>
+        <div class="cardx tint" data-r="4"><div class="tag">monitoring</div><h3>Anomaly watch</h3><p>Watches a metric or a channel and flags what moved. Like #deal_monitoring's automated root-cause analysis.</p></div>
+        <div class="cardx" data-r="5"><div class="tag">briefing</div><h3>Daily briefing</h3><p>Overnight it reads Slack, email, and calendar and hands you a ranked "here's your day."</p></div>
+      </div>
+      <p class="foot" data-r="6">See <span class="mono">#claude-ai</span> for the daily digests and end-of-week summaries people already run.</p>
+    </div>
+  </section>
+
+  <!-- 8 CONNECTIONS — concept -->
+  <section class="slide" data-sec="Connections">
+    <div class="wrap">
+      <div class="kicker" data-r="1">3 · connections</div>
+      <h2 class="head" data-r="2">From Claude in a vacuum<br>to <span class="hl">Claude wired into our data.</span></h2>
+      <div class="two" style="margin-top:34px">
+        <div>
+          <p class="lede" data-r="3" style="margin-top:0">A connected Claude beats a generic one. Wire it into the systems where the truth already lives and it answers from ground truth instead of guessing.</p>
+          <p class="foot" data-r="5">The most replicable thing in this session. Anyone can do it Monday, and Metabase is being enabled company-wide.</p>
+        </div>
+        <div class="grid" data-r="4" style="margin-top:0">
+          <div class="cardx tint"><div class="tag">ask in plain english</div><h3><span class="mono">How did Facebook do last week?</span></h3><p>Claude queries Snowflake through Metabase and answers with real numbers. No SQL, no dashboard hunting.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 CONNECTIONS — the menu -->
+  <section class="slide" data-sec="Connections">
+    <div class="wrap">
+      <div class="kicker" data-r="1">get wired in</div>
+      <h2 class="head" data-r="2">Connect what<br>your <span class="hl">job touches.</span></h2>
+      <div class="logos" data-r="3">
+        <div class="logo"><img src="https://cdn.simpleicons.org/metabase" onerror="this.remove()" alt=""><span>Metabase</span></div>
+        <div class="logo"><img src="https://cdn.simpleicons.org/notion/000000" onerror="this.remove()" alt=""><span>Notion</span></div>
+        <div class="logo"><svg viewBox="0 0 2447.6 2452.5" aria-hidden="true"><g clip-rule="evenodd" fill-rule="evenodd"><path d="m897.4 0c-135.3.1-244.8 109.9-244.7 245.2-.1 135.3 109.5 245.1 244.8 245.2h244.8v-245.1c.1-135.3-109.5-245.1-244.9-245.3.1 0 .1 0 0 0m0 654h-652.6c-135.3.1-244.9 109.9-244.8 245.2-.2 135.3 109.4 245.1 244.7 245.3h652.7c135.3-.1 244.9-109.9 244.8-245.2.1-135.4-109.5-245.2-244.8-245.3z" fill="#36c5f0"/><path d="m2447.6 899.2c.1-135.3-109.5-245.1-244.8-245.2-135.3.1-244.9 109.9-244.8 245.2v245.3h244.8c135.3-.1 244.9-109.9 244.8-245.3zm-652.7 0v-654c.1-135.2-109.4-245-244.7-245.2-135.3.1-244.9 109.9-244.8 245.2v654c-.2 135.3 109.4 245.1 244.7 245.3 135.3-.1 244.9-109.9 244.8-245.3z" fill="#2eb67d"/><path d="m1550.1 2452.5c135.3-.1 244.9-109.9 244.8-245.2.1-135.3-109.5-245.1-244.8-245.2h-244.8v245.2c-.1 135.2 109.5 245 244.8 245.2zm0-654.1h652.7c135.3-.1 244.9-109.9 244.8-245.2.2-135.3-109.4-245.1-244.7-245.3h-652.7c-135.3.1-244.9 109.9-244.8 245.2-.1 135.4 109.4 245.2 244.7 245.3z" fill="#ecb22e"/><path d="m0 1553.2c-.1 135.3 109.5 245.1 244.8 245.2 135.3-.1 244.9-109.9 244.8-245.2v-245.2h-244.8c-135.3.1-244.9 109.9-244.8 245.2zm652.7 0v654c-.2 135.3 109.4 245.1 244.7 245.3 135.3-.1 244.9-109.9 244.8-245.2v-653.9c.2-135.3-109.4-245.1-244.7-245.3-135.4 0-244.9 109.8-244.8 245.1 0 0 0 .1 0 0" fill="#e01e5a"/></g></svg><span>Slack</span></div>
+        <div class="logo"><img src="https://cdn.simpleicons.org/gmail/EA4335" onerror="this.remove()" alt=""><span>Gmail</span></div>
+        <div class="logo"><img src="https://cdn.simpleicons.org/fireflies/8A4FFF" onerror="this.remove()" alt=""><span>Fireflies</span></div>
+        <div class="logo"><img src="https://cdn.simpleicons.org/googlecalendar/4285F4" onerror="this.remove()" alt=""><span>Calendar</span></div>
+        <div class="logo"><img src="https://cdn.simpleicons.org/linear/5E6AD2" onerror="this.remove()" alt=""><span>Linear</span></div>
+        <div class="logo more">+ more</div>
+      </div>
+      <p class="foot" data-r="4">Figure out what your job touches, then request it. Connector requests go to Apa / James.</p>
+    </div>
+  </section>
+
+  <!-- 10 NORMS -->
+  <section class="slide" data-sec="Norms">
+    <div class="wrap">
+      <div class="kicker" data-r="1">4 · norms</div>
+      <h2 class="head" data-r="2">How we make it<br><span class="hl">compound.</span></h2>
+      <p class="lede" data-r="2">How we work decides how much leverage AI gives us. A few habits make the whole company more AI-powered, not just individuals.</p>
+      <div class="grid g3">
+        <div class="cardx" data-r="3"><div class="tag">default to public</div><h3>Work in public channels</h3><p>Public means AI and people can read, summarize, and learn from it. DMs are dark to the org. It's literally why a daily digest works.</p></div>
+        <div class="cardx tint" data-r="4"><div class="tag">do it twice? capture it</div><h3>Turn repeats into skills</h3><p>If you do something more than twice, save the prompt and context so it's reusable. Make it public if your team would use it too.</p></div>
+        <div class="cardx" data-r="5"><div class="tag">leave a trail</div><h3>Write decisions down</h3><p>Record meetings and put decisions in durable, searchable places so they don't evaporate.</p></div>
+      </div>
+      <p class="foot" data-r="6"><b>One more habit:</b> AI is wordy. Before you share its output, cut the slop yourself and ask Claude where your doc has holes.</p>
+    </div>
+  </section>
+
+  <!-- 11 BUILD ONE -->
+  <section class="slide" data-sec="Build">
+    <div class="wrap">
+      <div class="kicker" data-r="1">the working session</div>
+      <h2 class="head" data-r="2">Now you build <span class="hl">one thing.</span></h2>
+      <p class="lede" data-r="2">Pick one from the menu and set it up now. We're floating to help. The best default is a scheduled routine: set it up in the next 20 minutes and it runs today.</p>
+      <div class="grid g2">
+        <div class="cardx tint" data-r="3"><div class="tag">recommended default</div><h3>A morning digest</h3><p>Claude reads your Slack, inbox, and calendar and posts you a ranked "here's your day." Runs daily, and fires once today.</p></div>
+        <div class="cardx" data-r="4"><div class="tag">option</div><h3>A standing recap or tracker</h3><p>For a report you currently hand-maintain. Let it re-draft itself from the latest data.</p></div>
+        <div class="cardx" data-r="5"><div class="tag">option</div><h3>A Metabase question</h3><p>Save a plain-English question for a number you check often, ready to re-run anytime.</p></div>
+        <div class="cardx" data-r="6"><div class="tag">option</div><h3>A coaching or monitoring routine</h3><p>If you manage people or own a channel, point Claude at the activity and let it watch.</p></div>
+      </div>
+      <p class="foot" data-r="7">Frozen? Build the morning digest. Then put a 4pm reminder on your calendar to check what it produced.</p>
+    </div>
+  </section>
+
+  <!-- 12 STARTER KIT / GET HELP -->
+  <section class="slide" data-sec="Build">
+    <div class="wrap">
+      <div class="kicker" data-r="1">before you start</div>
+      <h2 class="head" data-r="2">Everything you need<br>is in the <span class="hl">starter kit.</span></h2>
+      <div class="grid g3">
+        <div class="cardx" data-r="3"><div class="tag">get set up</div><h3>Account + desktop</h3><p>Self-join link for a Homeaglow seat, the Claude Desktop app, and the connectors your work touches, including Metabase.</p></div>
+        <div class="cardx tint" data-r="4"><div class="tag">steal this</div><h3>Copy-paste prompts</h3><p>One prompt per area: a standing-artifact prompt, a scheduled-routine recipe, and the Metabase data question.</p></div>
+        <div class="cardx" data-r="5"><div class="tag">when you're stuck</div><h3>Get help</h3><p>Raise a hand or drop a line in <span class="mono">#claude-ai</span>, and a presenter picks it up.</p></div>
+      </div>
+      <p class="foot" data-r="6">No account, desktop, or connectors yet? Grab a presenter first so you don't lose the build block.</p>
+    </div>
+  </section>
+
+  <!-- 13 CLOSE -->
+  <section class="slide closing" data-sec="Close">
+    <div class="wrap">
+      <div class="kicker" data-r="1">Homeaglow Offsite · June 2026</div>
+      <h2 class="closing-title" data-r="2">Go build one.</h2>
+      <p class="lede" data-r="3">Check it at EOD, then keep the one habit that paid off. Help lives in <span class="mono">#claude-ai</span>.</p>
+    </div>
+  </section>
+
+</div>
+
+<script src="../../shared/deck.js"></script>
+</body>
+</html>
