@@ -14,6 +14,7 @@ Static GitHub Pages site for Homeaglow presentation decks.
 ## Current Decks
 
 - `presentations/how-to-claude-hag-2026/` — How to use Claude at Homeaglow, offsite June 2026.
+- `presentations/great-cleaners-hag-2026/` — Increasing the % of jobs done by great cleaners, marketing initiative June 2026.
 
 ## Creating A New Deck With An Agent
 

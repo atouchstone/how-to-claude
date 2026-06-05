@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Increasing the % of jobs done by great cleaners — internal initiative deck -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Increasing the % of jobs done by great cleaners</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="../../shared/deck.css" />
+</head>
+<body class="deck-page">
+
+<div class="bg">
+  <div class="wash w1"></div><div class="wash w2"></div>
+  <svg class="spark" style="left:13%;top:20%;width:26px;height:26px;fill:var(--yellow);animation-delay:0s" viewBox="0 0 24 24"><path d="M12 0c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 24c-.6-6.6-5.4-11.4-11.4-12C6.6 11.4 11.4 6 12 0z"/></svg>
+  <svg class="spark" style="right:16%;top:26%;width:18px;height:18px;fill:var(--ink);animation-delay:1.5s" viewBox="0 0 24 24"><path d="M12 0c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 24c-.6-6.6-5.4-11.4-11.4-12C6.6 11.4 11.4 6 12 0z"/></svg>
+  <svg class="spark" style="right:29%;bottom:19%;width:22px;height:22px;fill:var(--yellow);animation-delay:2.7s" viewBox="0 0 24 24"><path d="M12 0c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 24c-.6-6.6-5.4-11.4-11.4-12C6.6 11.4 11.4 6 12 0z"/></svg>
+  <svg class="spark" style="left:22%;bottom:23%;width:15px;height:15px;fill:var(--faint);animation-delay:3.6s" viewBox="0 0 24 24"><path d="M12 0c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 24c-.6-6.6-5.4-11.4-11.4-12C6.6 11.4 11.4 6 12 0z"/></svg>
+</div>
+
+<div class="topbar">
+  <div class="brand"><span class="mark"><svg viewBox="0 0 24 24" fill="#1B1A1A"><path d="M12 1c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 23c-.6-5.6-5.4-10.4-11.4-11C6.6 11.4 11.4 6 12 1z"/></svg></span> Great Cleaners</div>
+  <div class="pill-sec" id="secLabel">Open</div>
+</div>
+<div class="counter"><b id="cur">01</b> / <span id="tot">13</span></div>
+<div class="bar" id="bar"></div>
+<div class="rail" id="rail"></div>
+<div class="hint" id="hint"><kbd>←</kbd><kbd>→</kbd> navigate · click anywhere</div>
+
+<div id="deck">
+
+  <!-- 1 TITLE -->
+  <section class="slide active" data-sec="Open">
+    <div class="wrap">
+      <div class="kicker" data-r="1"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1c.6 6 5.4 10.8 11.4 11.4C17.4 12.6 12.6 17.4 12 23c-.6-5.6-5.4-10.4-11.4-11C6.6 11.4 11.4 6 12 1z"/></svg> Marketing Initiative · June 2026</div>
+      <h1 class="title" data-r="2">More jobs done by<br><span class="hl">great cleaners.</span></h1>
+      <p class="lede" data-r="3">We have solved cleaner supply. Quality mix is the new constraint, and it has stalled. Here is the problem, the metric, why it matters, and how we move it.</p>
+    </div>
+  </section>
+
+  <!-- 2 THE SHIFT -->
+  <section class="slide" data-sec="Open">
+    <div class="wrap">
+      <div class="kicker" data-r="1">where we are</div>
+      <h2 class="head" data-r="2">We solved quantity.<br>Now it is <span class="hl">quality.</span></h2>
+      <div class="grid g2">
+        <div class="cardx" data-r="3"><div class="tag">solved</div><h3>Enough cleaners</h3><p>~15,000 active CPs. We built the supply to serve the jobs we book. That first-order problem is behind us.</p></div>
+        <div class="cardx tint" data-r="4"><div class="tag">the new constraint</div><h3>Not enough great ones</h3><p>Only ~3,700 are great. Customers retain when a great cleaner does the job, so the quality mix now caps growth.</p></div>
+      </div>
+      <p class="foot" data-r="5">The opportunity is not more bodies. It is shifting the mix toward the cleaners who actually carry the marketplace.</p>
+    </div>
+  </section>
+
+  <!-- 3 THE PROBLEM, IN ONE CHART -->
+  <section class="slide" data-sec="Problem">
+    <div class="wrap">
+      <div class="kicker" data-r="1">the problem, in one chart</div>
+      <h2 class="head tight" data-r="2">Great-cleaner share has <span class="hl">flatlined.</span></h2>
+      <img data-r="3" src="assets/great-cleaners-job-mix.png" alt="Total invoiced jobs as bars and the percent of jobs done by great cleaners as a line, by month from January 2025 to May 2026. The percent climbs from 24 percent to about 31 percent then stays flat." style="display:block;width:100%;max-width:1040px;height:auto;margin:20px auto 0" />
+      <p class="foot" data-r="4">Share climbed ~24% to ~31% through 2025, then flat at ~31-32% for five months even as total jobs hit record highs (~97K in May). Great-cleaner supply is growing only in lockstep with the platform, not gaining share.</p>
+    </div>
+  </section>
+
+  <!-- 4 THE BOTTLENECK -->
+  <section class="slide" data-sec="Problem">
+    <div class="wrap">
+      <div class="kicker" data-r="1">where it leaks</div>
+      <h2 class="head" data-r="2">The bottleneck is the<br><span class="hl">top of the funnel.</span></h2>
+      <p class="lede" data-r="3">Only ~8% of all sign-ups (closer to ~15% for our best cohorts) ever invoice a first job. Marketing scaled Spanish sign-ups from ~800 to ~1,200 per week, but the number reaching first invoice stayed flat. We are pouring more in the top and the funnel is not converting it.</p>
+      <div class="flow" data-r="4">
+        <div class="node">Sign-up</div>
+        <span class="arrow">→</span>
+        <div class="node">See a job</div>
+        <span class="arrow">→</span>
+        <div class="node">Claim</div>
+        <span class="arrow">→</span>
+        <div class="node dark">First invoice<small>only ~8-15% get here</small></div>
+        <span class="arrow">→</span>
+        <div class="node ghost">Great<small>2-3 months later</small></div>
+      </div>
+      <p class="foot" data-r="5"><b>Leading hypothesis:</b> job visibility and tiering. New cleaners enter at tier 6, see nothing claimable, and drop off. Validating tiering vs. density gates the whole activation thesis.</p>
+    </div>
+  </section>
+
+  <!-- THE EVIDENCE -->
+  <section class="slide" data-sec="Problem">
+    <div class="wrap">
+      <div class="kicker" data-r="1">the evidence</div>
+      <h2 class="head tight" data-r="2">High intent, <span class="hl">going unmet.</span></h2>
+      <div class="grid g2">
+        <div class="cardx" data-r="3"><div class="tag">never shown a job</div><h3>49%</h3><p>Of cleaners who open the dashboard at least once, nearly half are never shown an available job to claim.</p></div>
+        <div class="cardx" data-r="4"><div class="tag">kept checking anyway</div><h3>51%</h3><p>Spanish cleaners who never saw a job still checked the dashboard 3+ times in their first three days. The intent is there.</p></div>
+        <div class="cardx" data-r="5"><div class="tag">engagement decays</div><h3>95% &rarr; 65%</h3><p>95% load the dashboard at least once, but only 65% check more than twice. The window to intervene is short.</p></div>
+        <div class="cardx" data-r="6"><div class="tag">our best cohort</div><h3>20-30%</h3><p>Spanish-speaking cleaners become great at the highest rate, yet they suffer the same attrition as everyone else.</p></div>
+      </div>
+      <p class="foot" data-r="7">From a ~1 month-old pull, to confirm with a newer one. The pattern: cleaners want jobs and cannot see them.</p>
+    </div>
+  </section>
+
+  <!-- 5 THE METRIC + HOW MEASURED -->
+  <section class="slide" data-sec="Metric">
+    <div class="wrap">
+      <div class="kicker" data-r="1">the metric</div>
+      <h2 class="head tight" data-r="2">What we measure,<br>and <span class="hl">how.</span></h2>
+      <div class="two" style="margin-top:34px">
+        <div>
+          <p class="lede" data-r="3" style="margin-top:0">Primary metric: <b>% of total monthly invoiced jobs done by great cleaners.</b> Job-level, so a CP must be great at the time of the job. Confirming "great" takes 2-3 months, which is too slow to steer on alone.</p>
+          <p class="foot" data-r="5"><b>"Great" (Ops):</b> 11+ invoiced jobs, 4.8+ rating with 5+ reviews, no-show under 1%, low refund, cancel, and not-want-again rates.</p>
+        </div>
+        <div class="grid" data-r="4" style="margin-top:0">
+          <div class="cardx tint"><div class="tag">the measurement backbone</div><h3>Shift the cohort curve up</h3><p>Track, by start cohort, the % of CPs still great in each later month, exactly like a user-acquisition retention curve. The goal is to lift that curve: more of each cohort qualifying as great and holding the bar longer.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 WHY WE CARE -->
+  <section class="slide" data-sec="Why">
+    <div class="wrap">
+      <div class="kicker" data-r="1">why it matters</div>
+      <h2 class="head" data-r="2">Why we <span class="hl">care.</span></h2>
+      <div class="grid g3">
+        <div class="cardx" data-r="3"><div class="tag">retention</div><h3>Great jobs retain customers</h3><p>Customer retention is materially higher when a great cleaner does the work, which directly drives LTV and ROI.</p></div>
+        <div class="cardx" data-r="4"><div class="tag">cohorts differ</div><h3>Some worth ~150% more</h3><p>Spanish-speaking CPs are worth ~150% more than English-speaking. A clear case to value and serve cohorts differently.</p></div>
+        <div class="cardx" data-r="5"><div class="tag">wasted cac</div><h3>We pay, then they vanish</h3><p>~85-92% of fully signed-up cleaners never invoice. The acquisition + activation fix is roughly 2-4x the retention opportunity.</p></div>
+      </div>
+      <p class="foot" data-r="6">A few points of mix improvement compounds across ~95K jobs every month.</p>
+    </div>
+  </section>
+
+  <!-- 7 THE PRIZE: TWO ENGINES -->
+  <section class="slide" data-sec="Plan">
+    <div class="wrap">
+      <div class="kicker" data-r="1">the plan</div>
+      <h2 class="head" data-r="2">The prize: <span class="hl">two engines.</span></h2>
+      <div class="grid g2">
+        <div class="cardx" data-r="3"><div class="tag">engine 1</div><h3>Acquisition differentiation</h3><p>Know the real value of each cohort we acquire, then point spend at the cohorts that actually become great.</p></div>
+        <div class="cardx" data-r="4"><div class="tag">engine 2</div><h3>Activation differentiation</h3><p>Once we know a cohort is valuable, serve them jobs better so more reach a first invoice. Fixing activation lifts retention as a byproduct.</p></div>
+      </div>
+      <p class="foot" data-r="5">Even imperfect versions of both are high leverage. Activation is the better first lever, even on retention's own terms.</p>
+    </div>
+  </section>
+
+  <!-- 8 FUNNEL OWNERSHIP -->
+  <section class="slide" data-sec="Plan">
+    <div class="wrap">
+      <div class="kicker" data-r="1">who owns what</div>
+      <h2 class="head tight" data-r="2">One funnel, <span class="hl">clear owners.</span></h2>
+      <div class="stepper" data-r="3">
+        <div class="track"></div>
+        <div class="stp"><div class="num setup">1</div><h4>Sign-up</h4><p>Source the cleaners</p><span class="mode setup">marketing</span></div>
+        <div class="stp"><div class="num setup">2</div><h4>See a job</h4><p>Source cohorts that skew great</p><span class="mode setup">marketing</span></div>
+        <div class="stp"><div class="num agent">3</div><h4>Claim</h4><p>Make a job claimable</p><span class="mode agent">pd / ops</span></div>
+        <div class="stp"><div class="num agent">4</div><h4>Invoice</h4><p>Land the first job</p><span class="mode agent">pd / ops</span></div>
+        <div class="stp"><div class="num human">5</div><h4>Make great</h4><p>Over 2-3 months</p><span class="mode human">pd / ops</span></div>
+      </div>
+      <p class="foot" data-r="4">Marketing owns the top (Sign-up, See a job). PD/Ops owns the middle (Claim, Invoice, Make great), where ~85% of the funnel leaks, so it is the highest-value place to fix.</p>
+    </div>
+  </section>
+
+  <!-- OPEN QUESTIONS -->
+  <section class="slide" data-sec="Open Qs">
+    <div class="wrap">
+      <div class="kicker" data-r="1">what we still need to figure out</div>
+      <h2 class="head tight" data-r="2">Mostly answerable with<br>data we <span class="hl">already hold.</span></h2>
+      <div class="grid g3">
+        <div class="cardx" data-r="3"><div class="tag">gates everything</div><h3>Tiering or density?</h3><p>Is it tier constraints, not geography, that stop new cleaners from seeing jobs?</p></div>
+        <div class="cardx" data-r="4"><div class="tag">baseline</div><h3>The full funnel</h3><p>A shared, stage-by-stage view from sign-up to actual great CP.</p></div>
+        <div class="cardx" data-r="5"><div class="tag">first-job experience</div><h3>Swap-outs and cancels</h3><p>How often new-cleaner claims get swapped out, and how often customers cancel on them.</p></div>
+        <div class="cardx" data-r="6"><div class="tag">timing</div><h3>Engagement decay</h3><p>When new cleaners stop checking after sign-up, so an intervention lands in time.</p></div>
+        <div class="cardx" data-r="6"><div class="tag">definition</div><h3>"Great" + early signal</h3><p>The baseline, the trigger, and a proxy we can read in weeks, not months.</p></div>
+        <div class="cardx" data-r="7"><div class="tag">targeting</div><h3>What predicts great</h3><p>Which sign-up traits correlate, and how first-job logic should change once we can score cohorts.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 WORKSTREAMS -->
+  <section class="slide" data-sec="Plan">
+    <div class="wrap">
+      <div class="kicker" data-r="1">how we move it</div>
+      <h2 class="head tight" data-r="2">Five workstreams,<br>one <span class="hl">end-state.</span></h2>
+      <div class="grid g3">
+        <div class="cardx" data-r="3"><div class="tag">definition + data</div><h3>Define and measure</h3><p>Lock "great" plus an early proxy, build the shared funnel baseline, validate tiering vs. density.</p></div>
+        <div class="cardx tint" data-r="4"><div class="tag">activation · lead</div><h3>Fix the ~85% leak</h3><p>Tier-10 Spanish lead test in one geo, real-time "job available" push, proactive settings nudges.</p></div>
+        <div class="cardx" data-r="5"><div class="tag">acquisition</div><h3>Acquire great cohorts</h3><p>Scale Spanish sign-ups, test Spanish vs. English messaging, explore new attributes and channels.</p></div>
+        <div class="cardx" data-r="6"><div class="tag">signal</div><h3>Find what predicts great</h3><p>Known so far: Spanish, a 150+ word bio, vetted experience, referrals. Regression to find the rest, and quantify a great CP's value to guide spend.</p></div>
+        <div class="cardx" data-r="6"><div class="tag">growth</div><h3>Targeted experiments</h3><p>Re-engage the ~3,000 lapsed; a post-first-job referral program, run with a control.</p></div>
+        <div class="cardx dark" data-r="7"><div class="tag">end-state</div><h3>ML tiering model</h3><p>Score cohorts at acquisition and set first-job logic and tier automatically.</p></div>
+      </div>
+      <p class="foot" data-r="7"><b>Deprioritized to keep focus:</b> retention for active greats, abandoned-cart, and paid assessors.</p>
+    </div>
+  </section>
+
+  <!-- 10 MILESTONES -->
+  <section class="slide" data-sec="Plan">
+    <div class="wrap">
+      <div class="kicker" data-r="1">milestones</div>
+      <h2 class="head tight" data-r="2">The next three <span class="hl">months.</span></h2>
+      <div class="grid g3">
+        <div class="cardx" data-r="3"><div class="tag">june</div><h3>Investigate</h3><p>Complete investigations, collect and dashboard all relevant data, further brainstorm tests and initiatives.</p></div>
+        <div class="cardx" data-r="4"><div class="tag">july</div><h3>Execute + test</h3><p>Execute changes to the Spanish CP Meta program to drive increased volume, conduct 2+ tests to improve signup &rarr; invoicing by "likely great," and build out the initiative backlog and test plans.</p></div>
+        <div class="cardx" data-r="5"><div class="tag">aug+</div><h3>Scale</h3><p>Execute and iterate to drive increase.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11 CLOSE -->
+  <section class="slide closing" data-sec="Close">
+    <div class="wrap">
+      <div class="kicker" data-r="1">Marketing Initiative · June 2026</div>
+      <h2 class="closing-title" data-r="2">Move the line.</h2>
+      <p class="lede" data-r="3">We just need the number to go up. Pick a workstream, run the test that is ready, and we keep what works.</p>
+    </div>
+  </section>
+
+</div>
+
+<script src="../../shared/deck.js"></script>
+</body>
+</html>
